@@ -13,4 +13,5 @@ export interface RegistrationModel {
   name: string;
   birthdate: string;
   courseId: number;
+  newsletterEmail?: boolean;
 }
